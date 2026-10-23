@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PSYCHE</title>
+  <meta name="description" content="PSYCHE is a personal application that keeps one person's own records on their own Mac.">
+  <style>
+    :root { --fg: #171A18; --muted: #5A615D; --bg: #F6F7F5; --line: #DDE1DA; }
+    @media (prefers-color-scheme: dark) { :root { --fg: #ECEFED; --muted: #9AA49E; --bg: #121614; --line: #283029; } }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 -apple-system, "Helvetica Neue", Arial, sans-serif; }
+    main { max-width: 680px; margin: 0 auto; padding: 56px 16px; }
+    h1 { letter-spacing: .2em; font-size: 20px; }
+    p, li { color: var(--fg); } .muted { color: var(--muted); }
+    footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 16px; }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>PSYCHE</h1>
+  <p>PSYCHE is a personal application that one person uses to keep their own records on their own Mac: weight, measurements, groceries, the car, household bills and building charges. It is not a service, has no accounts and is not offered to anyone else.</p>
+  <h2>How it uses Google</h2>
+  <p>The owner's phone writes quick entries to a Google Sheet and puts photos of receipts and bills, and PDFs of bills shared to it, in Google Drive folders. PSYCHE, running on the owner's Mac, signs in to the owner's own Google account to read those entries and files and to write corrections back to the same Sheet. It asks for:</p>
+  <ul>
+    <li><b>Google Sheets</b>: to read and update the owner's spreadsheets that hold their entries.</li>
+    <li><b>Google Drive, only files PSYCHE created or was given</b>: to read the photos and documents the owner put in PSYCHE's own folders.</li>
+  </ul>
+  <p>Everything PSYCHE reads stays on the owner's Mac. Nothing is sent to the developer or to anyone else. See the <a href="privacy.html">privacy policy</a>.</p>
+  <footer class="muted">Contact: the owner, through the <a href="https://github.com/psavidis/psyche-site/issues">project's repository</a>.</footer>
+</main>
+</body>
+</html>
